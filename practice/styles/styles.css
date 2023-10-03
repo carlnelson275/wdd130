@@ -1,0 +1,55 @@
+img {
+    width: 80%;
+    /* fills 80% of the width of the page */
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    font-size: 1.5em;
+    /* font size of links go 1.5x bigger */
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    height: 5vh;
+    /* 20% of the height of the viewport */
+    width: 50vw;
+    /* 20% of the width of the viewport */
+    border: 1px solid blue
+}
+
+h1 {
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+    margin: 0 auto;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+main p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+/* * {
+    border: solid blue;
+} */
