@@ -1,0 +1,42 @@
+img {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+}
+h1:hover {
+    color: black;
+}
+
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+.white {
+    color: white;
+}
+
+body p {
+    color: black;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+footer {
+    color: black;
+}
+
+h2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div {
+    height: 50px;
+}
