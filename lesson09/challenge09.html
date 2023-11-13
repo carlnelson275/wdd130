@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 Challenge</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .timing {
+            text-align: center;
+            margin: 0 auto;
+            color: navy;
+            margin-top: 1rem;
+            margin-bottom: .25rem;
+        }
+        .heading {
+            text-align: center;
+            margin: 0 auto;
+            font-size: 2.5em;
+            margin-bottom: 2rem;
+        }
+        .content {
+            margin-left: 40px;
+            margin-right: 40px;
+            text-align: center;
+            font-size: 1.25rem;
+        }
+        .card {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: navy;
+            height: 100px;
+            align-content: center;
+        }
+        .stats div:nth-child(3) {
+            border: none;
+        }
+        .stat {
+            color: white;
+            text-align: center;
+            border-right: 1px gray solid;
+        }
+        .stat p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        .stat1 {
+            font-size: 1.5rem;
+        }
+        .stat2 {
+            font-size: .8rem;
+        }
+    </style>
+</head>
+<body>
+    <section class="card">
+        <img src="images/w09_ice_img.jpg" alt="cityscape">
+        <p class="timing">3 weeks ago</p>
+        <p class="heading">Post Three</p>
+        <p class="content">This would be some text to go here and tell you about this awesome article that they should definitely read. This would be some text to go here and tell you about this awesome article that they should definitely read. This would be some text to go here.</p>
+        <div class="stats">
+            <div class="stat">
+                <p class="stat1">5<sup>m</sup></p>
+                <p class="stat2">READ</p>
+            </div>
+            <div class="stat">
+                <p class="stat1">2031</p>
+                <p class="stat2">VIEWS</p>
+            </div>
+            <div class="stat">
+                <p class="stat1">15</p>
+                <p class="stat2">COMMENTS</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
