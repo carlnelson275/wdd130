@@ -238,6 +238,9 @@ main section img {
     padding: 1rem;
     margin: .5rem 0;
 }
+.blog-post img {
+    max-width: 565px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
