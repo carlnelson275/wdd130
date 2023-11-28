@@ -22,6 +22,12 @@ nav {
     border-radius: 50px;
 }
 
+h1 {
+    color: #ac3931;
+    text-align: center;
+    font-size: 3.5em;
+}
+
 #container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,6 +35,8 @@ nav {
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 20px;
+    grid-gap: 40px;
 }
 
 .main {
@@ -40,10 +48,12 @@ nav {
 h2 {
     color: #ac3931;
     text-align: center;
+    font-size: 1.5em
 }
 p {
     text-align: center;
     color: #ade1e5;
+    font-size: 1.1em;
 }
 
 #img1 {
