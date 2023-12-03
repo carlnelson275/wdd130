@@ -28,7 +28,7 @@ h1 {
     font-size: 3.5em;
 }
 
-#container {
+#container-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -38,11 +38,25 @@ h1 {
     padding-top: 20px;
     grid-gap: 40px;
 }
+#container-second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
 
 .main {
     width: 90%;
     display: block;
     margin: 0 auto;
+}
+.block {
+    display: block;
+    margin: 0 auto;
+    grid-column: 1/2;
+    width: 50%;
 }
 
 h2 {
@@ -97,4 +111,7 @@ p {
     grid-column: 2/3;
     grid-row: 3/4;
     padding: 35px;
+}
+#p200 {
+    grid-column: 2/3;
 }
