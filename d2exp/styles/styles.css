@@ -40,7 +40,7 @@ h1 {
 }
 #container-second {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -49,11 +49,14 @@ h1 {
 }
 #container-third {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     width: 90%;
     margin: 0 auto;
     text-align: center;
     grid-gap: 40px;
+}
+.spacer {
+    padding: 40px;
 }
 
 .main {
@@ -65,14 +68,24 @@ h1 {
     display: block;
     margin: 0 auto;
     grid-column: 1/2;
+    grid-row: 1/2;
     width: 75%;
+    border-bottom: 20px;
+}
+.block2 {
+    display: block;
+    margin: 0 auto;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 75%;
+    border-bottom: 20px;
 }
 .block-vid {
     display: block;
     margin: 0 auto;
     grid-column: 1/2;
-    width: 60%
-    
+    grid-row: 2/3;
+    border-top: 20px;
 }
 
 h2 {
@@ -147,4 +160,5 @@ footer a {
 }
 #p200 {
     grid-column: 2/3;
+    grid-row: 1/3;
 }
